@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { updateName, updateEmail } from '../actions/userActions';
+import { updateName, updateEmail } from '../redux/action/userActions';
 
 const UserForm = () => {
   const [name, setName] = useState('');

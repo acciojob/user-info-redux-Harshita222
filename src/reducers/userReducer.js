@@ -1,4 +1,4 @@
-import { UPDATE_NAME, UPDATE_EMAIL } from '../actions/userActions';
+import { UPDATE_NAME, UPDATE_EMAIL } from '../redux/action/userActions';
 
 const initialState = {
   name: '',
